@@ -1,5 +1,4 @@
 <?php
-
 $faqs = [
     [
         'question' => '<span class="question">Come state implementando la recente decisione della Corte di giustizia dell\' Unione europea (CGUE) relativa al diritto all\' oblio?</span>',
@@ -19,11 +18,12 @@ $faqs = [
     ],
     [
         'question' => '<span class="question">Perché il mio account è associato a un paese?</span>',
-        'answer' => 'Il tuo account è associato a un paese (o territorio) nei Termini di servizio per poter stabilire due cose: 1. La società consociata Google che offre i servizi, tratta le tue informazioni ed è responsabile del rispetto delle leggi sulla privacy vigenti. Generalmente Google offre i propri servizi per i consumatori tramite una delle due società seguenti:
-        Google Ireland Limited, se gli utenti sono residenti nello Spazio economico europeo (paesi dell\'Unione europea, oltre a Islanda, Liechtenstein e Norvegia) o in Svizzera.
-        Google LLC, con sede negli Stati Uniti, per il resto del mondo.
-        2. La versione dei termini che regola il nostro rapporto, che può variare in base alle leggi locali.
-        Tieni presente che i servizi Google sono fondamentalmente gli stessi a prescindere dalla società consociata che li offre o dal paese a cui è associato il tuo account.',
+        'answer' => '<div class="marg-par">Il tuo account è associato a un paese (o territorio) nei Termini di servizio per poter stabilire due cose:</div> <ol><li>La società consociata Google che offre i servizi, tratta le tue informazioni ed è responsabile del rispetto delle leggi sulla privacy vigenti. Generalmente Google offre i propri servizi per i consumatori tramite una delle due società seguenti:
+            <ol class="letter">
+        <li>Google Ireland Limited, se gli utenti sono residenti nello Spazio economico europeo (paesi dell\'Unione europea, oltre a Islanda, Liechtenstein e Norvegia) o in Svizzera.</li>
+        <li>Google LLC, con sede negli Stati Uniti, per il resto del mondo.</li></ol>
+        <li>La versione dei termini che regola il nostro rapporto, che può variare in base alle leggi locali.<li></ol>
+        <div>Tieni presente che i servizi Google sono fondamentalmente gli stessi a prescindere dalla società consociata che li offre o dal paese a cui è associato il tuo account.</div>',
     ],
     [
         'question' => '<span class="question">Stabilire il paese associato al tuo account</span>',
@@ -33,14 +33,13 @@ $faqs = [
     ],
     [
         'question' => '<span class="question">Come faccio a rimuovere informazioni su di me dai risultati di ricerca di Google?</span>',
-        'answer' => 'I risultati di ricerca di Google rispecchiano i contenuti pubblicamente disponibili sul Web. I motori di ricerca non possono rimuovere i contenuti direttamente dai siti web, quindi rimuovere risultati di ricerca da Google non consente di rimuovere i contenuti dal Web. Se desideri rimuovere qualcosa dal Web, devi <span class="blue">contattare il webmaster</span> del sito su cui sono pubblicati i contenuti e chiedergli di apportare una modifica. Inoltre, se, ai sensi delle leggi europee per la protezione dei dati, desideri richiedere la rimozione di determinate informazioni su di te visualizzate nei risultati di ricerca di Google, <span class="blue">fai clic qui.</span> Una volta che i contenuti saranno stati rimossi e che Google avrà rilevato l\'aggiornamento, le informazioni non verranno più visualizzate nei risultati di ricerca di Google. In caso di una richiesta di rimozione urgente, è inoltre possibile <span class="blue">visitare la nostra pagina di assistenza per avere ulteriori informazioni.</span>
-        ',
+        'answer' => '<div class="marg-par">I risultati di ricerca di Google rispecchiano i contenuti pubblicamente disponibili sul Web. I motori di ricerca non possono rimuovere i contenuti direttamente dai siti web, quindi rimuovere risultati di ricerca da Google non consente di rimuovere i contenuti dal Web. Se desideri rimuovere qualcosa dal Web, devi <span class="blue">contattare il webmaster</span> del sito su cui sono pubblicati i contenuti e chiedergli di apportare una modifica. Inoltre, se, ai sensi delle leggi europee per la protezione dei dati, desideri richiedere la rimozione di determinate informazioni su di te visualizzate nei risultati di ricerca di Google, <span class="blue">fai clic qui.</span> Una volta che i contenuti saranno stati rimossi e che Google avrà rilevato l\'aggiornamento, le informazioni non verranno più visualizzate nei risultati di ricerca di Google. In caso di una richiesta di rimozione urgente, è inoltre possibile <span class="blue">visitare la nostra pagina di assistenza per avere ulteriori informazioni.</span></div>',
     ],
     [
         'question' => '<span class="question">Quando faccio clic sui risultati della Ricerca Google, le mie chiavi di ricerca vengono inviate ai siti web?</span>',
-        'answer' => 'In alcuni casi sì. Quando fai clic su un risultato della Ricerca Google, il tuo browser web potrebbe reindirizzare alla pagina web di destinazione anche l\'indirizzo Internet, o URL, della pagina dei risultati di ricerca sotto forma di <span class="blue">URL referrer.</span> Talvolta, l\'URL della pagina dei risultati di ricerca potrebbe contenere la query di ricerca che hai inserito. Se utilizzi la ricerca SSL (la funzione di ricerca criptata di Google), nella maggior parte dei casi i termini di ricerca non vengono inviati come parte dell\'URL negli URL referrer. Questo comportamento può fare eccezione, ad esempio se utilizzi alcuni browser meno diffusi. Ulteriori informazioni sulla ricerca SSL sono disponibili <span class="blue">qui.</span> Le query di ricerca o le informazioni contenute nell\'URL referrer potrebbero essere disponibili mediante Google Analytics o un\'API (Application Programming Interface). Inoltre, gli inserzionisti potrebbero ricevere informazioni relative all\' esatte parole chiave che hanno determinato il clic su un annuncio.',
+        'answer' => '<div class="marg-par">In alcuni casi sì. Quando fai clic su un risultato della Ricerca Google, il tuo browser web potrebbe reindirizzare alla pagina web di destinazione anche l\'indirizzo Internet, o URL, della pagina dei risultati di ricerca sotto forma di <span class="blue">URL referrer.</span> Talvolta, l\'URL della pagina dei risultati di ricerca potrebbe contenere la query di ricerca che hai inserito. Se utilizzi la ricerca SSL (la funzione di ricerca criptata di Google), nella maggior parte dei casi i termini di ricerca non vengono inviati come parte dell\'URL negli URL referrer. Questo comportamento può fare eccezione, ad esempio se utilizzi alcuni browser meno diffusi. Ulteriori informazioni sulla ricerca SSL sono disponibili <span class="blue">qui.</span> Le query di ricerca o le informazioni contenute nell\'URL referrer potrebbero essere disponibili mediante Google Analytics o un\'API (Application Programming Interface). Inoltre, gli inserzionisti potrebbero ricevere informazioni relative all\' esatte parole chiave che hanno determinato il clic su un annuncio.</div>',
     ],
-    
+
 ];
 
 ?>
@@ -60,19 +59,20 @@ $faqs = [
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>PHP-GOOGLE-FAQ</title>
+    <title>php-google-FAQ</title>
 </head>
 
 <body>
 
     <header>
-        <div class="header">
+        <div class="header sp-between">
             <div class="left flex-center">
                 <img src="img/logo.png" alt="">
                 <span class="primary">Privacy e Termini</span>
             </div>
-            <div class="right">
-
+            <div class="right flex-center">
+                <i class="fas fa-th"></i>
+                <span class="account flex-center"> L </span>
             </div>
         </div>
         <div class="list">
@@ -88,11 +88,11 @@ $faqs = [
     </header>
     <main>
         <?php
-        foreach ($faqs as $key => $class) {
-            foreach ($class as $key => $element) {
-                echo '<p>' . $element . '</p>';
-            }
-        };
+            foreach ($faqs as $key => $class) {
+                foreach ($class as $key => $element) {
+                    echo '<p>' . $element . '</p>';
+                }
+            };
         ?>
 
     </main>

@@ -3,13 +3,18 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
-    font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
 }
 /* common */
 .flex-center {
   display: flex;
   justify-content: flex-start;
+  align-items: center;
+}
+.sp-between {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 .JSstart {
@@ -34,10 +39,12 @@ header {
 .list ul li {
   padding: 8px 40px 8px 5px;
   list-style-type: none;
+  font-weight: 300;
 }
-.list ul li:last-child{
-    color: #386AD7;
-    border-bottom: 3px solid #386AD7;
+.list ul li:last-child {
+  color: #386ad7;
+  font-weight: 500;
+  border-bottom: 3px solid #386ad7;
 }
 span {
   /* color: #3c4043; */
@@ -50,16 +57,48 @@ img {
   width: 80px;
   object-fit: contain;
 }
+.right {
+    padding-right: 30px;
+}
+.fas,
+.account{
+    padding: 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+}
+.fas{
+    color: #3c4043;
+    padding: 6px;
+}
+.account{
+    border: 1px solid rgb(253, 247, 247);
+    background-color: green;
+    color: white;
+    font-size: 90%;
+}
+.fas:hover{
+    background-color:rgb(253, 247, 247);
+    cursor: pointer;
+}
+.account:hover{
+    padding: 10px;
+    height: 33px;
+    width: 33px;
+    border: 3px solid lightgray;
+    cursor: pointer;
+}
 
 /* main */
 main {
-  border: 2px solid green;
+    padding-top: 50px;
   width: 75%;
   margin: 0 auto;
 }
 /* Dynamic part */
 p {
-  padding: 30px 5px;
+  padding: 10px 5px;
   line-height: 1.5em;
   font-size: 90%;
 }
@@ -68,12 +107,17 @@ p {
   font-size: 160%;
   line-height: 1.4rem;
 }
-.marg-par{
-    padding: 0px 10px 30px;
-    line-height: 1.5em;
+.marg-par,
+ol,
+li{
+  padding: 0px 10px 15px;
+  line-height: 1.5em;
+}
+.letter{
+    list-style-type: lower-alpha;
 }
 .blue {
-  color: #386AD7;
+  color: #386ad7;
   font-size: 100%;
 }
 .blue:hover {
@@ -81,16 +125,16 @@ p {
 }
 
 /* footer */
-footer{
-    background-color: #f5f5f5;
-    height: 6vh;
+footer {
+  background-color: #f5f5f5;
+  height: 6vh;
 }
 .footer {
   width: 75%;
   margin: 0 auto;
 }
-i{
-    color: #4BB5F8;
+.ft-right i {
+  color: #4bb5f8;
 }
 .ft-left ul {
   padding-right: 20px;
@@ -106,6 +150,6 @@ i{
   display: flex;
   justify-content: flex-end;
 }
-select{
-    width: 170px;
+select {
+  width: 170px;
 }
